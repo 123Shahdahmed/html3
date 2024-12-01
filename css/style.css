@@ -1,0 +1,73 @@
+body{
+    position: relative;
+    overflow: hidden;
+}
+.parent div{
+    float: left;
+    height: 400px;
+    padding: 15px;
+    
+}
+.clear-fix{
+    clear: both;
+}
+.parent{
+   margin-top: 190px;
+   margin-left: 320px;
+   overflow: auto;
+   position: relative;
+   left: 45px;
+   top: 8px;   
+}
+div p{
+    width:235px;
+    color: antiquewhite;
+    
+}
+div button{
+    width: 110px;
+    height: 35px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-top: 8rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+div h1{
+    color: white;
+    text-transform:uppercase;
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 3rem;
+  letter-spacing: -2px;
+}
+.one button{
+    color:rgb(228, 129, 23) ;
+}
+.two button{
+    color:rgb(20, 152, 102) ;
+}
+.two button{
+    color:rgb(4, 55, 38) ;
+    
+}
+.one{
+  background-color: rgb(228, 129, 23);  
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.two{
+    background-color: rgb(20, 152, 102);
+
+}
+.three{
+    background-color: rgb(4, 55, 38);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
